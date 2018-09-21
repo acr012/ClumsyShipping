@@ -1,0 +1,50 @@
+<div class="container-fluid">
+
+  <div class="row" id="clumsyHeader">
+
+    <div class="col-sm-1" id="clumsyHeaderImage">
+      <i class="fas fa-paste fa-2x"></i>
+    </div>
+    <div class="col-sm-6" id="clumsyHeaderContent">
+      <p>Submissions</p>
+    </div>
+
+  </div>
+
+  <div class="row" id="clumsyBody">
+
+    <div class="row">
+      <div class="col-md-2">
+
+        <div class="container search-container">
+          <form>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#">All</a></li>
+          <li><a href="#">Suggestions</a></li>
+          <li><a href="#">Complaints</a></li>
+          <li><a href="#">Compliments</a></li>
+          <li><a href="#">Other</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-10">
+        <app-table></app-table>
+      </div>
+    </div><!-- end row -->
+
+
+    <div class="row">
+      <div class="col-md-2">
+        <i class="fas fa-question-circle fa-md"></i>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
