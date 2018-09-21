@@ -1,0 +1,54 @@
+.fa-lightbulb {
+  margin: 2rem 0 2rem 2rem;
+}
+
+.container-fluid {
+  margin: 0 2rem;
+}
+
+#clumsyHeader, #clumsyBody {
+  border-color: #e7e7e7;
+  border-style: solid;
+  border-top-style: none;
+  border-width: thin;
+  padding: 1rem 2rem;
+  margin: 0;
+  color: #777777;
+}
+
+#clumsyHeaderContent {
+  margin: 2rem 2rem 2rem 0;
+  font-size: 2rem;
+  color: #777;
+}
+
+#clumsyBody {
+  font-size: 14px;
+  background-color: #f8f9fa;
+}
+
+img {
+  margin: auto;
+  width: 6rem;
+  height: 6rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 2rem;
+}
+
+.form-control {
+  color: #777777;
+  margin-top: 1rem;
+}
+
+.attachments {
+  margin-top: 2rem;
+}
+
+.cancel {
+  margin-right: 1rem;
+}
+

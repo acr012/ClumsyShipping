@@ -1,0 +1,107 @@
+<div class="container-fluid">
+
+  <div class="row" id="clumsyHeader">
+
+    <div class="col-sm-1" id="clumsyHeaderImage">
+      <i class="fas fa-lightbulb fa-2x"></i>
+    </div>
+    <div class="col-sm-6" id="clumsyHeaderContent">
+      <p>Give Us Your Feedback</p>
+    </div>
+
+  </div>
+
+  <div class="row" id="clumsyBody">
+
+    <div class="col-sm-10">
+      <p>Send us your thoughts on Clumsy Shipping so we can keep our employees happy, and our company innovative!</p>
+    </div>
+
+    <form>
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-sm-3">
+            <label for="feedbackType">Feedback Type <i class="fas fa-question-circle fa-xs"></i> </label>
+          </div>
+          <div class="col-sm-3">
+            <select class="form-control" id="feedbackType">
+              <option>Suggestion</option>
+              <option>Complaint</option>
+              <option>Compliment</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div><!-- end form-group -->
+      </div><!-- end row -->
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-sm-3">
+            <label for="feedbackTitle">Title</label>
+          </div>
+          <div class="col-sm-6">
+            <input type="title" class="form-control" id="feedbackTitle" placeholder="Briefly describe your feedback">
+          </div>
+        </div><!-- end form-group -->
+      </div><!-- end row -->
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-sm-3">
+            <label for="feedbackDescription">Description</label>
+          </div>
+          <div class="col-sm-8">
+            <textarea class="form-control" id="feedbackDescription" rows="10" placeholder="Describe your feedback in detail"></textarea>
+          </div>
+        </div><!-- end form-group -->
+      </div><!-- end row -->
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-sm-3">
+            <label for="feedbackEmail">Email <i class="fas fa-question-circle fa-xs"></i></label>
+          </div>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="feedbackEmail" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="col-sm-3">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" active>
+              Anonymous
+            </label>
+          </div>
+        </div><!-- end form-group -->
+      </div><!-- end row -->
+
+      <div class="row">
+        <div class="form-group">
+          <div class="col-sm-3">
+            <label >Attachments <i class="fas fa-question-circle fa-xs"></i></label>
+          </div>
+          <div class="col-sm-1 attachments">
+            <i class="fas fa-plus-circle fa-2x"></i>
+          </div>
+          <div class="col-sm-3 attachments">
+            <p>Add Attachment(s)</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <button type="cancel" class="btn btn-default cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+
+
+    </form>
+
+  </div>
+
+</div>
+
