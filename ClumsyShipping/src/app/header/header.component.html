@@ -26,13 +26,15 @@
 
     <!-- navbar tabs -->
     <div class="collapse navbar-collapse" id="clumsyTabs">
-      <ul class="navbar-nav navbar-right">
+      <ul class="nav nav-pills navbar-right">
 
-        <li class="nav-item" active>
-          <a  routerLink="/feedback" routerLinkActive="active">Feedback<span class="sr-only">(current)</span></a>
+        <li class="nav-item active" >
+          <a  routerLink="/feedback" routerLinkActive="active" data-toggle="tab" href="#feedback-tab">
+            Feedback<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a  routerLink="/submissions" routerLinkActive="active">Submissions</a>
+          <a  routerLink="/submissions" routerLinkActive="active" data-toggle="tab" href="#submissions-tab">
+            Submissions</a>
         </li>
 
       </ul>
